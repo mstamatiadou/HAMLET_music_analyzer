@@ -1,0 +1,44 @@
+# ──────────────────────────────────────────────────────────────
+# HAMLET — Classification Schemes Configuration
+# ──────────────────────────────────────────────────────────────
+# Each top-level key is a "scheme" (a group of textual prompts).
+# CLAP will score the audio against every textual description 
+# within a scheme. Add, remove, or modify schemes freely. 
+# The UI will pick them up automatically on next run.
+# ──────────────────────────────────────────────────────────────
+
+default_schemes:
+
+  ick_pre_cho_elements:
+    description: "ICK choreographic intention vocabulary"
+    prompts:
+      - "Rhythm On: clock and sound category, intention where the body submits to the sound"
+      - "Cosmic origin: intention-based movement originating from the center and stretching to the edge"
+      - "Rescue oneself: an imperative adaptation movement, changing dynamic through the spine"
+      - "Ringing and stretching: continuous energetic migration through the wrists, knees, and hips"
+
+  traditional_genres:
+    description: "Mainstream music genre categories"
+    prompts:
+      - "This is a music track of a classical symphony"
+      - "This is a music track of funk pop"
+      - "This is a music track of acoustic folk"
+      - "This is a music track of heavy rock"
+      - "This is a music track of electronic dance music"
+      - "This is a music track of hip-hop and rap"
+      - "This is a music track of jazz and blues"
+      - "This is a music track of latin and world music"
+
+  emotional_valence:
+    description: "Affective dimension probes (valence-arousal mapping)"
+    prompts:
+      - "An uplifting and joyful piece of music"
+      - "A melancholic and introspective piece of music"
+      - "An aggressive and tense piece of music"
+      - "A calm and meditative piece of music"
+
+# ──────────────────────────────────────────────────────────────
+# Optional: user-defined custom schemes
+# Choreographers can add their own here without modifying code.
+# ──────────────────────────────────────────────────────────────
+custom_schemes: {}
