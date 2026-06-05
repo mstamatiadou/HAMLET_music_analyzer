@@ -1,0 +1,64 @@
+{
+  "DEFAULT_SCHEMES": {
+    "ick_pre_cho_elements": [
+      "Rhythm On: clock and sound category",
+      "Cosmic origin: movement stretching to edge",
+      "Rescue oneself: dynamic through spine",
+      "Ringing and stretching: migration through joints"
+    ],
+    "traditional_genres": [
+      {
+        "0": {
+          "name": "Electronic/Dance",
+          "short": "EDM",
+          "description": "Synth‑driven, strong beat, 4/4 time, high energy"
+        },
+        "1": {
+          "name": "Pop/Rock",
+          "short": "PopRock",
+          "description": "Melodic, verse‑chorus structure, mainstream instrumentation"
+        },
+        "2": {
+          "name": "Hip‑Hop / Rap",
+          "short": "HipHop",
+          "description": "Rhythmic spoken vocals, strong back‑beat, often 4/4"
+        },
+        "3": {
+          "name": "Jazz / Blues",
+          "short": "Jazz",
+          "description": "Swing feel, improvisation, extended harmonies"
+        },
+        "4": {
+          "name": "Classical / Orchestral",
+          "short": "Classical",
+          "description": "Acoustic orchestration, varied tempo, often multi‑section"
+        },
+        "5": {
+          "name": "Latin / World",
+          "short": "Latin",
+          "description": "Afro‑Cuban, Bossa‑Nova, reggaeton rhythms, syncopated percussion"
+        },
+        "6": {
+          "name": "Folk / Acoustic",
+          "short": "Folk",
+          "description": "Simple acoustic instruments, storytelling lyrics"
+        },
+        "7": {
+          "name": "R&B / Soul",
+          "short": "R&B",
+          "description": "Smooth vocal lines, groove‑oriented rhythm, rich harmonies"
+        },
+        "8": {
+          "name": "Metal / Hard‑Rock",
+          "short": "Metal",
+          "description": "Distorted guitars, aggressive drums, often odd‑time signatures"
+        },
+        "9": {
+          "name": "Ambient / Experimental",
+          "short": "Ambient",
+          "description": "Texture‑focused, low rhythm density, atmospheric sound‑scapes"
+        }
+      }
+    ]
+  }
+}
