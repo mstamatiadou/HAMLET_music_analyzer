@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────
+# HAMLET — Runtime Settings
+# ──────────────────────────────────────────────────────────────
+
+model:
+  id: "laion/clap-htsat-fused"
+  target_sample_rate: 48000
+
+analysis:
+  default_window_sec: 6.0
+  default_temperature: 3.0
+  min_chunk_ratio: 1.0 # minimum fraction of window_samples to keep a chunk
+
+ui:
+  title: "HAMLET - Music to Movement Translation Enabler"
+  share: true
+  debug: true
+  server_port: 7860
